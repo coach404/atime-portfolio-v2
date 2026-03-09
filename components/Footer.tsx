@@ -34,8 +34,8 @@ export default function Footer() {
             <h4 className="font-semibold text-white mb-4">Get in Touch</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="mailto:anja@atime.agency" className="hover:text-blue-400 transition-colors">
-                  anja@atime.agency
+                <a href="mailto:anjatrajkovic23@gmail.com" className="hover:text-blue-400 transition-colors">
+                  anjatrajkovic23@gmail.com
                 </a>
               </li>
               <li className="text-gray-400">US-based, serving nationwide</li>
