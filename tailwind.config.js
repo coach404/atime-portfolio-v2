@@ -8,7 +8,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#1e40af',
+        primary: '#0071e3',
+        ink: '#1d1d1f',
+        canvas: '#fbfbfd',
+        surface: '#f5f5f7',
+      },
+      borderRadius: {
+        '4xl': '2rem',
       },
     },
   },

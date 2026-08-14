@@ -1,165 +1,92 @@
 export default function HomePage() {
   return (
-    <div className="min-h-screen bg-white">
-      <section className="pt-32 pb-20 px-6 bg-gradient-to-b from-blue-50 to-white">
-        <div className="max-w-4xl mx-auto text-center">
-          <div className="inline-block px-4 py-2 bg-green-50 border border-green-200 rounded-full text-sm text-green-700 mb-6">
-            ✓ Built for US law & accounting firms
-          </div>
-          
-          <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-            Cut Contract Review Time by <span className="text-blue-600">87%</span>
+    <div className="min-h-screen bg-canvas">
+      {/* Hero */}
+      <section className="pt-40 pb-24 px-6">
+        <div className="max-w-3xl mx-auto text-center animate-fade-in-up">
+          <h1 className="text-5xl md:text-7xl font-semibold text-ink mb-6 leading-[1.05]">
+            AI automation,
+            <br />
+            built by one founder.
           </h1>
-          
-          <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-            Enterprise-grade AI automation for 10-50 person law and accounting firms. 
-            Reclaim 13+ hours per week. No IT team needed.
+          <p className="text-xl md:text-2xl text-ink/60 mb-10 max-w-2xl mx-auto leading-relaxed">
+            No IT team, no 6-month rollout, no enterprise contract. Production-grade
+            automation for firms that can&apos;t afford to wait.
           </p>
-          
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
-            <a href="/pricing">
-              <button className="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-all text-lg">
-                Start 14-Day Free Trial →
+          <div className="flex flex-col sm:flex-row gap-3 justify-center">
+            <a href="/legal">
+              <button className="px-7 py-3 bg-ink hover:bg-black text-white font-medium rounded-full transition-colors">
+                Legal &amp; Accounting
               </button>
             </a>
-            <a href="/contact">
-              <button className="px-8 py-4 bg-white hover:bg-gray-50 text-blue-700 font-semibold rounded-lg border-2 border-blue-600 transition-all text-lg">
-                Get Free $5k Audit
+            <a href="/dispatch">
+              <button className="px-7 py-3 bg-white hover:bg-surface text-ink font-medium rounded-full border border-black/10 transition-colors">
+                Freight Dispatch
               </button>
             </a>
-          </div>
-          
-          <div className="flex flex-wrap justify-center gap-6 text-sm text-gray-500">
-            <span className="flex items-center gap-2">
-              <span className="text-green-500">✓</span>
-              No credit card required
-            </span>
-            <span className="flex items-center gap-2">
-              <span className="text-green-500">✓</span>
-              Setup in 48 hours
-            </span>
-            <span className="flex items-center gap-2">
-              <span className="text-green-500">✓</span>
-              Cancel anytime
-            </span>
           </div>
         </div>
       </section>
 
-      <section className="py-12 bg-white border-t border-b border-gray-200">
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            <div>
-              <div className="text-blue-600 text-2xl mb-2">⚡</div>
-              <div className="text-4xl font-bold text-blue-600 mb-1">87%</div>
-              <div className="text-sm font-semibold text-gray-900">Time Reduction</div>
-              <div className="text-xs text-gray-500">Contract review</div>
-            </div>
-            <div>
-              <div className="text-green-600 text-2xl mb-2">$</div>
-              <div className="text-4xl font-bold text-green-600 mb-1">$75k</div>
-              <div className="text-sm font-semibold text-gray-900">Annual ROI</div>
-              <div className="text-xs text-gray-500">Per partner</div>
-            </div>
-            <div>
-              <div className="text-amber-600 text-2xl mb-2">🕐</div>
-              <div className="text-4xl font-bold text-amber-600 mb-1">13h</div>
-              <div className="text-sm font-semibold text-gray-900">Hours Saved</div>
-              <div className="text-xs text-gray-500">Every week</div>
-            </div>
-            <div>
-              <div className="text-blue-600 text-2xl mb-2">🎯</div>
-              <div className="text-4xl font-bold text-blue-600 mb-1">99%+</div>
-              <div className="text-sm font-semibold text-gray-900">Accuracy</div>
-              <div className="text-xs text-gray-500">Partner reviews all</div>
-            </div>
-          </div>
+      {/* Two verticals */}
+      <section className="px-6 pb-24">
+        <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-6">
+          <a
+            href="/legal"
+            className="stagger-item group block rounded-4xl bg-white border border-black/5 p-10 hover:shadow-xl hover:shadow-black/5 transition-all duration-300 hover:-translate-y-1"
+          >
+            <span className="inline-block px-3 py-1 bg-surface rounded-full text-[12px] font-medium text-ink/60 mb-6">
+              Legal &amp; Accounting
+            </span>
+            <h2 className="text-2xl font-semibold text-ink mb-3">
+              Cut contract review time by 87%
+            </h2>
+            <p className="text-ink/60 leading-relaxed mb-6">
+              AI-powered contract analysis for 10-50 person firms. Flags only
+              high-risk clauses — a partner reviews every one.
+            </p>
+            <span className="text-primary font-medium text-sm inline-flex items-center gap-1 group-hover:gap-2 transition-all">
+              Learn more →
+            </span>
+          </a>
+
+          <a
+            href="/dispatch"
+            className="stagger-item group block rounded-4xl bg-white border border-black/5 p-10 hover:shadow-xl hover:shadow-black/5 transition-all duration-300 hover:-translate-y-1"
+          >
+            <span className="inline-block px-3 py-1 bg-surface rounded-full text-[12px] font-medium text-ink/60 mb-6">
+              Freight Dispatch
+            </span>
+            <h2 className="text-2xl font-semibold text-ink mb-3">
+              AI dispatch for 5-50 truck carriers
+            </h2>
+            <p className="text-ink/60 leading-relaxed mb-6">
+              Automated driver-load matching, real-time HOS/tachograph
+              compliance, and driver messaging in 12 languages.
+            </p>
+            <span className="text-primary font-medium text-sm inline-flex items-center gap-1 group-hover:gap-2 transition-all">
+              Learn more →
+            </span>
+          </a>
         </div>
       </section>
 
-      <section className="py-20 px-6 bg-gray-50">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">
-            The Excel Trap is Killing Your Firm&apos;s Growth
-          </h2>
-          <p className="text-xl text-gray-600 text-center mb-12 max-w-3xl mx-auto">
-            75% of law firms still use spreadsheets for critical workflows. 
-            Partners spend 15+ hours per week on tasks that should be automated.
-          </p>
-          
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-white rounded-2xl p-8 border-2 border-red-200">
-              <h3 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-3">
-                <span className="text-red-500">✕</span>
-                Without ATime
-              </h3>
-              <ul className="space-y-4">
-                <li className="flex items-start gap-3 text-gray-700">
-                  <span className="text-red-500 flex-shrink-0">▸</span>
-                  <span>15 hours/week manual contract review</span>
-                </li>
-                <li className="flex items-start gap-3 text-gray-700">
-                  <span className="text-red-500 flex-shrink-0">▸</span>
-                  <span>Excel spreadsheets held together with formulas</span>
-                </li>
-                <li className="flex items-start gap-3 text-gray-700">
-                  <span className="text-red-500 flex-shrink-0">▸</span>
-                  <span>$273k/year wasted on repetitive tasks</span>
-                </li>
-                <li className="flex items-start gap-3 text-gray-700">
-                  <span className="text-red-500 flex-shrink-0">▸</span>
-                  <span>Can&apos;t scale without hiring more staff</span>
-                </li>
-              </ul>
-            </div>
-
-            <div className="bg-gradient-to-br from-green-50 to-blue-50 rounded-2xl p-8 border-2 border-green-300">
-              <h3 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-3">
-                <span className="text-green-500">✓</span>
-                With ATime
-              </h3>
-              <ul className="space-y-4">
-                <li className="flex items-start gap-3 text-gray-700">
-                  <span className="text-green-500 flex-shrink-0">▸</span>
-                  <span>2 hours/week (87% reduction)</span>
-                </li>
-                <li className="flex items-start gap-3 text-gray-700">
-                  <span className="text-green-500 flex-shrink-0">▸</span>
-                  <span>AI flags only high-risk clauses</span>
-                </li>
-                <li className="flex items-start gap-3 text-gray-700">
-                  <span className="text-green-500 flex-shrink-0">▸</span>
-                  <span>$75k annual ROI per partner</span>
-                </li>
-                <li className="flex items-start gap-3 text-gray-700">
-                  <span className="text-green-500 flex-shrink-0">▸</span>
-                  <span>Take on 3x more clients without hiring</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="py-20 px-6 bg-gradient-to-r from-blue-600 to-blue-700 text-white">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Ready to Reclaim 13+ Hours Per Week?
-          </h2>
-          <p className="text-xl mb-8 text-blue-100">
-            Start your 14-day free trial. No credit card required. Setup in 48 hours.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="/pricing">
-              <button className="px-8 py-4 bg-white text-blue-700 font-bold rounded-lg hover:bg-gray-100 transition-all">
-                Start Free Trial →
-              </button>
-            </a>
-            <a href="/contact">
-              <button className="px-8 py-4 bg-blue-800 hover:bg-blue-900 text-white font-bold rounded-lg border-2 border-white transition-all">
-                Get Free $5k Audit
-              </button>
-            </a>
+      {/* Founder */}
+      <section className="px-6 pb-24">
+        <div className="max-w-3xl mx-auto bg-white rounded-4xl border border-black/5 p-10 md:p-14 flex flex-col md:flex-row items-center gap-10 animate-fade-in-up">
+          <img
+            src="/anja-founder-photo.png"
+            alt="Anja Trajkovic, Founder of ATime"
+            className="w-32 h-32 rounded-full object-cover flex-shrink-0"
+          />
+          <div>
+            <p className="text-lg text-ink/80 leading-relaxed mb-4">
+              &ldquo;I&apos;m 17. I shipped a production AI automation portfolio in
+              under a week. Most agencies take 6 months and charge $200k — I built
+              ATime to flip that model.&rdquo;
+            </p>
+            <p className="font-medium text-ink">Anja Trajkovic</p>
+            <p className="text-sm text-ink/50">Founder, ATime</p>
           </div>
         </div>
       </section>

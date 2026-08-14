@@ -1,114 +1,56 @@
 export default function ContactPage() {
   return (
-    <div className="min-h-screen bg-white py-20 px-6">
-      <div className="max-w-2xl mx-auto pt-12">
-        <div className="mb-8">
-          <a href="/" className="text-blue-600 hover:underline text-sm">
-            ← Back to Home
+    <div className="min-h-screen bg-canvas py-20 px-6">
+      <div className="max-w-2xl mx-auto pt-20">
+        <div className="mb-10">
+          <a href="/" className="text-primary hover:underline text-sm">
+            ← Back to home
           </a>
         </div>
 
-        <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Get Your Free $5k Bugbot Audit
+        <div className="text-center mb-12 animate-fade-in-up">
+          <h1 className="text-4xl md:text-5xl font-semibold text-ink mb-4">
+            Let&apos;s talk
           </h1>
-          <p className="text-xl text-gray-600">
-            Discover how much time AI automation can save your firm
+          <p className="text-xl text-ink/60">
+            Legal &amp; accounting audit, or a freight dispatch pilot — tell us which.
           </p>
         </div>
 
-        <div className="bg-gradient-to-br from-blue-50 to-white border-2 border-blue-200 rounded-2xl p-8 mb-8">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">
-            What You'll Get:
-          </h2>
-          <ul className="space-y-4">
-            <li className="flex items-start gap-3">
-              <span className="text-green-500 text-xl flex-shrink-0">✓</span>
-              <span className="text-gray-700">
-                <strong>AI Code Audit:</strong> We analyze your existing Excel/Access systems for automation opportunities
-              </span>
-            </li>
-            <li className="flex items-start gap-3">
-              <span className="text-green-500 text-xl flex-shrink-0">✓</span>
-              <span className="text-gray-700">
-                <strong>Time Savings Report:</strong> Exact hours you'll reclaim per week with AI automation
-              </span>
-            </li>
-            <li className="flex items-start gap-3">
-              <span className="text-green-500 text-xl flex-shrink-0">✓</span>
-              <span className="text-gray-700">
-                <strong>Custom Roadmap:</strong> Step-by-step plan to modernize your workflows
-              </span>
-            </li>
-            <li className="flex items-start gap-3">
-              <span className="text-green-500 text-xl flex-shrink-0">✓</span>
-              <span className="text-gray-700">
-                <strong>ROI Projection:</strong> Expected return on investment within first 6 months
-              </span>
-            </li>
-          </ul>
-        </div>
+        <div className="bg-white border border-black/5 rounded-4xl p-8 mb-6">
+          <h2 className="text-lg font-semibold text-ink mb-5">Email</h2>
+          <a
+            href="mailto:atime.company@gmail.com"
+            className="text-primary text-lg font-medium"
+          >
+            atime.company@gmail.com
+          </a>
 
-        <div className="bg-white border-2 border-gray-200 rounded-2xl p-8">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">
-            Contact Us
-          </h2>
-          
-          <div className="space-y-6">
-            <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Email</h3>
-              <a 
-                href="mailto:atime.company@gmail.com" 
-                className="text-blue-600 hover:text-blue-700 text-lg"
-              >
-                atime.company@gmail.com
-              </a>
-            </div>
-
-            <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Location</h3>
-              <p className="text-gray-700">
-                Serving US law & accounting firms nationwide
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Response Time</h3>
-              <p className="text-gray-700">
-                We respond to all inquiries within 24 hours
-              </p>
-            </div>
-          </div>
-
-          <div className="mt-8 pt-8 border-t border-gray-200">
-            <h3 className="text-lg font-semibold text-gray-900 mb-4">
-              Ready to Get Started?
-            </h3>
-            <p className="text-gray-700 mb-4">
-              Email us at <a href="mailto:atime.company@gmail.com" className="text-blue-600 hover:underline font-semibold">atime.company@gmail.com</a> with:
-            </p>
-            <ul className="space-y-2 text-gray-700">
-              <li className="flex items-start gap-2">
-                <span className="text-blue-600">•</span>
-                <span>Your firm name and size (number of employees)</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-blue-600">•</span>
-                <span>Primary workflow bottleneck (contract review, reporting, etc.)</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-blue-600">•</span>
-                <span>Best time for a 15-minute intro call</span>
-              </li>
+          <div className="mt-8 pt-8 border-t border-black/5">
+            <h3 className="text-lg font-semibold text-ink mb-4">Include in your email</h3>
+            <ul className="space-y-2 text-ink/60 text-[15px]">
+              <li>Which vertical: legal/accounting audit, or freight dispatch pilot</li>
+              <li>Company name and size (employees, or fleet size for carriers)</li>
+              <li>Primary bottleneck you want solved</li>
+              <li>Best time for a 15-minute intro call</li>
             </ul>
           </div>
         </div>
 
-        <div className="mt-8 text-center">
-          <p className="text-sm text-gray-500">
-            No commitment required. Free audit valid for firms with 10-50 employees.
-          </p>
+        <div className="grid sm:grid-cols-2 gap-4 text-sm text-ink/50">
+          <div className="bg-white border border-black/5 rounded-3xl p-5">
+            <p className="font-medium text-ink mb-1">Legal &amp; Accounting</p>
+            <p>Free $5k audit for 10-50 person firms.</p>
+          </div>
+          <div className="bg-white border border-black/5 rounded-3xl p-5">
+            <p className="font-medium text-ink mb-1">Freight Dispatch</p>
+            <p>Free pilot for the first 5 carriers, 5-50 trucks.</p>
+          </div>
         </div>
+
+        <p className="mt-8 text-center text-sm text-ink/40">
+          We respond to all inquiries within 24 hours.
+        </p>
       </div>
     </div>
   );
