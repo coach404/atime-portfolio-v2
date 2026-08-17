@@ -13,7 +13,7 @@ export default function ContactPage() {
             Let&apos;s talk
           </h1>
           <p className="text-xl text-ink/60">
-            Legal &amp; accounting audit, or a freight dispatch pilot — tell us which.
+            Legal &amp; accounting waitlist, or a freight dispatch pilot — tell us which.
           </p>
         </div>
 
@@ -29,7 +29,7 @@ export default function ContactPage() {
           <div className="mt-8 pt-8 border-t border-black/5">
             <h3 className="text-lg font-semibold text-ink mb-4">Include in your email</h3>
             <ul className="space-y-2 text-ink/60 text-[15px]">
-              <li>Which vertical: legal/accounting audit, or freight dispatch pilot</li>
+              <li>Which vertical: legal/accounting waitlist, or freight dispatch pilot</li>
               <li>Company name and size (employees, or fleet size for carriers)</li>
               <li>Primary bottleneck you want solved</li>
               <li>Best time for a 15-minute intro call</li>
@@ -40,7 +40,7 @@ export default function ContactPage() {
         <div className="grid sm:grid-cols-2 gap-4 text-sm text-ink/50">
           <div className="bg-white border border-black/5 rounded-3xl p-5">
             <p className="font-medium text-ink mb-1">Legal &amp; Accounting</p>
-            <p>Free $5k audit for 10-50 person firms.</p>
+            <p>Coming soon — join the waitlist for early access.</p>
           </div>
           <div className="bg-white border border-black/5 rounded-3xl p-5">
             <p className="font-medium text-ink mb-1">Freight Dispatch</p>

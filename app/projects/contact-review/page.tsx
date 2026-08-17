@@ -1,168 +1,98 @@
 export default function ContractReviewPage() {
   return (
-    <div className="min-h-screen bg-white py-20 px-6">
+    <div className="min-h-screen bg-canvas py-20 px-6">
       <div className="max-w-4xl mx-auto pt-12">
         <div className="mb-8">
-          <a href="/" className="text-blue-600 hover:underline text-sm">
-            ← Back to Home
+          <a href="/legal" className="text-primary hover:underline text-sm">
+            ← Back to Legal &amp; Accounting
           </a>
         </div>
 
-        <div className="mb-8 bg-amber-50 border-2 border-amber-300 rounded-xl p-6">
+        <div className="mb-8 bg-surface border border-black/5 rounded-3xl p-6">
           <div className="flex items-start gap-3">
-            <span className="text-amber-600 text-2xl flex-shrink-0">⚠️</span>
+            <span className="text-ink/40 text-2xl flex-shrink-0">⚠️</span>
             <div>
-              <h4 className="font-bold text-amber-900 mb-2">Important Legal Notice</h4>
-              <p className="text-sm text-amber-800">
-                AI flags potential risk clauses for attorney review. 
-                <strong> Licensed attorneys make all final decisions.</strong> This tool assists review — 
-                it does not provide legal advice or replace attorney judgment.
+              <h4 className="font-semibold text-ink mb-2">Important legal notice</h4>
+              <p className="text-sm text-ink/60">
+                This product is still in development — no client has used it yet,
+                and the figures below are targets, not results. Once launched, AI
+                would flag potential risk clauses for attorney review only.
+                <strong> Licensed attorneys make all final decisions.</strong> The
+                tool is designed to assist review — it will not provide legal
+                advice or replace attorney judgment.
               </p>
             </div>
           </div>
         </div>
 
         <div className="mb-12">
-          <div className="inline-block px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-mono mb-3">
-            CASE STUDY — CONTRACT REVIEW
+          <div className="inline-block px-3 py-1 bg-surface rounded-full text-[12px] font-medium text-ink/60 mb-3">
+            CONCEPT PREVIEW — COMING SOON
           </div>
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+          <h1 className="text-4xl md:text-5xl font-semibold text-ink mb-4">
             Contract Review Automation
           </h1>
-          <p className="text-xl text-gray-600">
-            How we helped a NYC law firm cut contract review time by 87%
+          <p className="text-xl text-ink/60">
+            How we plan to cut contract review time for small law firms
           </p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
-          <div className="bg-gray-50 border border-gray-200 rounded-xl p-4 text-center">
-            <div className="text-sm text-gray-500 mb-1">Client</div>
-            <div className="text-xl font-bold text-gray-900">NYC Law Firm</div>
-          </div>
-          <div className="bg-gray-50 border border-gray-200 rounded-xl p-4 text-center">
-            <div className="text-sm text-gray-500 mb-1">Time Saved</div>
-            <div className="text-xl font-bold text-gray-900">13h/week</div>
-          </div>
-          <div className="bg-gray-50 border border-gray-200 rounded-xl p-4 text-center">
-            <div className="text-sm text-gray-500 mb-1">Speed Up</div>
-            <div className="text-xl font-bold text-gray-900">87%</div>
-          </div>
-          <div className="bg-gray-50 border border-gray-200 rounded-xl p-4 text-center">
-            <div className="text-sm text-gray-500 mb-1">Attorney Oversight</div>
-            <div className="text-xl font-bold text-gray-900">100%</div>
-          </div>
-        </div>
-
-        <div className="mb-12 bg-amber-50 border border-amber-200 rounded-xl p-8">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">
-            ⚠️ The Problem
-          </h2>
-          <p className="text-gray-700 mb-4">
-            A 15-person NYC law firm was spending <strong>15 hours per week</strong> manually 
-            reviewing client contracts for risk clauses, compliance issues, and liability concerns.
+        <div className="mb-12 bg-white border border-black/5 rounded-4xl p-8">
+          <h2 className="text-2xl font-semibold text-ink mb-4">The problem we&apos;re targeting</h2>
+          <p className="text-ink/60 mb-4 leading-relaxed">
+            Small law firms often spend hours per week manually reviewing client
+            contracts for risk clauses, compliance issues, and liability concerns.
           </p>
-          <ul className="space-y-2 text-gray-700">
+          <ul className="space-y-2 text-ink/60 text-[15px]">
             <li className="flex items-start gap-2">
-              <span className="text-amber-500">•</span>
-              <span>45 minutes per contract review</span>
+              <span className="text-ink/30">•</span>
+              <span>Long, manual review per contract</span>
             </li>
             <li className="flex items-start gap-2">
-              <span className="text-amber-500">•</span>
+              <span className="text-ink/30">•</span>
               <span>Partners doing manual work instead of billable hours</span>
             </li>
             <li className="flex items-start gap-2">
-              <span className="text-amber-500">•</span>
-              <span>Bottleneck preventing new client onboarding</span>
+              <span className="text-ink/30">•</span>
+              <span>A bottleneck that limits how many clients a firm can take on</span>
             </li>
           </ul>
         </div>
 
-        <div className="mb-12 bg-blue-50 border border-blue-200 rounded-xl p-8">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">
-            💡 The Solution
-          </h2>
-          <p className="text-gray-700 mb-6">
-            We built a custom <strong>AI-powered contract analysis pipeline</strong>:
+        <div className="mb-12 bg-white border border-black/5 rounded-4xl p-8">
+          <h2 className="text-2xl font-semibold text-ink mb-4">The planned solution</h2>
+          <p className="text-ink/60 mb-6 leading-relaxed">
+            We&apos;re building an AI-powered contract analysis pipeline:
           </p>
-          
+
           <div className="space-y-3">
-            <div className="flex items-start gap-3 bg-white rounded-lg p-4">
-              <div className="w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-sm flex-shrink-0">
-                1
+            {[
+              "Partner uploads a PDF contract",
+              "AI extracts text and metadata",
+              "System analyzes for common risk categories",
+              "AI flags high-risk clauses with page numbers",
+              "Partner reviews only the flagged sections",
+            ].map((step, i) => (
+              <div key={step} className="flex items-start gap-3 bg-surface rounded-2xl p-4">
+                <div className="w-8 h-8 rounded-full bg-ink text-white flex items-center justify-center font-semibold text-sm flex-shrink-0">
+                  {i + 1}
+                </div>
+                <p className="text-ink/70 pt-1">{step}</p>
               </div>
-              <p className="text-gray-700 pt-1">Partner uploads PDF contract</p>
-            </div>
-            <div className="flex items-start gap-3 bg-white rounded-lg p-4">
-              <div className="w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-sm flex-shrink-0">
-                2
-              </div>
-              <p className="text-gray-700 pt-1">AI extracts text + metadata (30 seconds)</p>
-            </div>
-            <div className="flex items-start gap-3 bg-white rounded-lg p-4">
-              <div className="w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-sm flex-shrink-0">
-                3
-              </div>
-              <p className="text-gray-700 pt-1">System analyzes for 12 risk categories</p>
-            </div>
-            <div className="flex items-start gap-3 bg-white rounded-lg p-4">
-              <div className="w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-sm flex-shrink-0">
-                4
-              </div>
-              <p className="text-gray-700 pt-1">AI flags high-risk clauses with page numbers</p>
-            </div>
-            <div className="flex items-start gap-3 bg-white rounded-lg p-4">
-              <div className="w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-sm flex-shrink-0">
-                5
-              </div>
-              <p className="text-gray-700 pt-1">Partner reviews only flagged sections (2 min vs 45 min)</p>
-            </div>
+            ))}
           </div>
         </div>
 
-        <div className="mb-12 bg-green-50 border border-green-200 rounded-xl p-8">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">
-            ✅ The Results
-          </h2>
-          <div className="grid grid-cols-2 gap-4 mb-6">
-            <div className="bg-white border border-green-200 rounded-lg p-4 text-center">
-              <div className="text-3xl font-bold text-green-600 mb-1">87%</div>
-              <div className="font-semibold text-gray-900 text-sm">Time Reduction</div>
-              <div className="text-xs text-gray-500">15h → 2h/week</div>
-            </div>
-            <div className="bg-white border border-green-200 rounded-lg p-4 text-center">
-              <div className="text-3xl font-bold text-green-600 mb-1">$75k</div>
-              <div className="font-semibold text-gray-900 text-sm">Annual ROI</div>
-              <div className="text-xs text-gray-500">Partner time saved</div>
-            </div>
-            <div className="bg-white border border-green-200 rounded-lg p-4 text-center">
-              <div className="text-3xl font-bold text-green-600 mb-1">100%</div>
-              <div className="font-semibold text-gray-900 text-sm">Attorney Review</div>
-              <div className="text-xs text-gray-500">All decisions</div>
-            </div>
-            <div className="bg-white border border-green-200 rounded-lg p-4 text-center">
-              <div className="text-3xl font-bold text-green-600 mb-1">3</div>
-              <div className="font-semibold text-gray-900 text-sm">New Clients</div>
-              <div className="text-xs text-gray-500">First month</div>
-            </div>
-          </div>
-          <div className="bg-white border border-green-300 rounded-lg p-4">
-            <p className="text-sm text-green-800 italic">
-              &quot;This tool paid for itself in 6 weeks. We went from turning down clients to actively seeking them.&quot;
-              <span className="block mt-1 font-semibold not-italic">— Partner, NYC Law Firm</span>
-            </p>
-          </div>
-        </div>
-
-        <div className="text-center bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-2xl p-10">
-          <h3 className="text-2xl font-bold mb-3">
-            Ready to automate your contract review?
+        <div className="text-center bg-ink text-white rounded-4xl p-10">
+          <h3 className="text-2xl font-semibold mb-3">
+            Want early access when this launches?
           </h3>
-          <p className="mb-6">
-            Get a free Bugbot Audit to identify your automation opportunity.
+          <p className="mb-6 text-white/70">
+            Join the waitlist and we&apos;ll reach out as soon as it&apos;s ready.
           </p>
           <a href="/contact">
-            <button className="px-8 py-4 bg-white text-blue-700 font-bold rounded-lg hover:bg-gray-100 transition-all">
-              Claim Free Audit →
+            <button className="px-8 py-3 bg-white text-ink font-medium rounded-full hover:bg-white/90 transition-colors">
+              Join the waitlist →
             </button>
           </a>
         </div>

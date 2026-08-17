@@ -36,17 +36,17 @@ export default function HomePage() {
             className="stagger-item group block rounded-4xl bg-white border border-black/5 p-10 hover:shadow-xl hover:shadow-black/5 transition-all duration-300 hover:-translate-y-1"
           >
             <span className="inline-block px-3 py-1 bg-surface rounded-full text-[12px] font-medium text-ink/60 mb-6">
-              Legal &amp; Accounting
+              Legal &amp; Accounting — Coming Soon
             </span>
             <h2 className="text-2xl font-semibold text-ink mb-3">
-              Cut contract review time by 87%
+              AI contract review, built for 10-50 person firms
             </h2>
             <p className="text-ink/60 leading-relaxed mb-6">
-              AI-powered contract analysis for 10-50 person firms. Flags only
-              high-risk clauses — a partner reviews every one.
+              Flags only high-risk clauses — a partner reviews every one.
+              In development now; join the waitlist for early access.
             </p>
             <span className="text-primary font-medium text-sm inline-flex items-center gap-1 group-hover:gap-2 transition-all">
-              Learn more →
+              Get early access →
             </span>
           </a>
 
