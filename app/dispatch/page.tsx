@@ -16,7 +16,8 @@ export default function DispatchPage() {
           <p className="text-xl text-ink/60 mb-10 max-w-2xl mx-auto leading-relaxed">
             Automated driver-load matching, real-time HOS and tachograph
             compliance, and driver communication in 12 languages. Built for
-            carriers who can&apos;t afford $200k+ enterprise dispatch software.
+            carriers priced out of enterprise dispatch software — no IT team,
+            no long rollout, no enterprise contract required.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 justify-center mb-8">
@@ -75,7 +76,7 @@ export default function DispatchPage() {
                 <li>Manual load-driver matching, hours per load</li>
                 <li>Compliance math done by hand, easy to miss</li>
                 <li>A dispatcher fluent in every driver&apos;s language</li>
-                <li>$200k+ enterprise contracts to get any of this</li>
+                <li>An enterprise price tag and a multi-month rollout to get any of this</li>
               </ul>
             </div>
 

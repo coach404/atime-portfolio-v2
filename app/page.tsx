@@ -82,8 +82,8 @@ export default function HomePage() {
           <div>
             <p className="text-lg text-ink/80 leading-relaxed mb-4">
               &ldquo;I&apos;m 17. I shipped a production AI automation portfolio in
-              under a week. Most agencies take 6 months and charge $200k — I built
-              ATime to flip that model.&rdquo;
+              under a week — no six-month rollout, no enterprise price tag.
+              That&apos;s the model I built ATime around.&rdquo;
             </p>
             <p className="font-medium text-ink">Anja Trajkovic</p>
             <p className="text-sm text-ink/50">Founder, ATime</p>
